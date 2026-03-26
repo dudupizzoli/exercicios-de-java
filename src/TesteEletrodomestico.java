@@ -6,7 +6,6 @@ public class TesteEletrodomestico {
         Eletrodomestico meuEletro = new Eletrodomestico();
 
         double vKwh;
-        double respvKwh;
         System.out.println("Digite qual é o seu eletrodoméstico");
         meuEletro.nome = leitor.nextLine();
         System.out.println("Digite a potência dele: ");
